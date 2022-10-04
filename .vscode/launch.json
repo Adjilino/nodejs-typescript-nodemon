@@ -1,0 +1,13 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+          "name": "Node: Nodemon via NPM",
+          "request": "launch",
+          "runtimeArgs": ["run", "start:debug"],
+          "runtimeExecutable": "npm",
+          "skipFiles": ["<node_internals>/**"],
+          "type": "node"
+      }
+    ]
+}
